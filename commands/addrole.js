@@ -2,10 +2,9 @@ const Discord = require("discord.js");
 const config = require("./config.json");
 
 module.exports.run = async (bot, message, args) => {
-const admin = ["231933442273574913", "283444510107762698"]
 
   //!addrole @andrew Dog Person
-if(admin.includes(message.author.id)) {} else if (message.member.hasPermission(["ADMINISTRATOR"])) {} else return message.reply('you can\'t do that command!');
+if(config.admin.includes(message.author.id)) {} else if (message.member.hasPermission(["ADMINISTRATOR"])) {} else return message.reply('you can\'t do that command!');
   let rMember = message.guild.member(message.mentions.users.first()) || message.guild.members.get(args[0]);
   if(!rMember) return message.reply("I couldn't find that user!");
   let role = args.join(" ").slice(22);
