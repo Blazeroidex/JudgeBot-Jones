@@ -98,6 +98,11 @@ bot.on('message', async message => {
     var sender = message.author;
     var msg = message.content.toUpperCase();
   
+    if (msg.includes('MARITAL')) {
+        if(message.author.id !== '245361121295335425') return;
+        message.reply('Are you sure you didn\'t mean "martial"?')
+      
+    } 
    
 // Ping Commands
     if (msg === prefix + 'PING') {
