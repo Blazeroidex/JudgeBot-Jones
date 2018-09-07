@@ -115,6 +115,12 @@ bot.on('message', async message => {
     
     }
 
+// Admin List Command
+    if (msg === prefix + 'ADMINS') {
+        message.channel.send("Admins: " + config.admins)
+    
+    }
+  
 // Dabbing Garfield Image Command
     if (msg === prefix + 'GARFIELDDAB') {
         message.channel.send({files: ["https://i.imgur.com/pRHaLAH.jpg"]})
