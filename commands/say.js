@@ -3,11 +3,9 @@ const config = require("./config.json");
 
 module.exports.run = async (bot, message, args) => {
 
-if(config.admin.includes(message.author.id)) {} else return message.reply('you can\'t do that command!');
-
       const sayMessage = args.join(" ");
       message.delete().catch();
-      message.channel.send("<@${message.author.id}> says:" + sayMessage);
+      message.channel.send(`<@${message.author.id}> says: ` + sayMessage);
 
 }
 
