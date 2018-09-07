@@ -2,7 +2,7 @@ const config = require("./config.json");
 
 exports.run = (client, message, args) => {
 
-if(config.admin.includes(message.author.id)) {} else if (message.member.hasPermission(["ADMINISTRATOR"])) {} else return message.reply('you can\'t do that command!');
+if(config.admin.includes(message.author.id)) {} else return message.reply('you can\'t do that command!');
 if (args.length  < 1) return message.reply("You must supply a Guild ID");
 client.guilds.get(args.join(" ")).leave()
 .then(g => console.log(`Left the guild ${g}`)) .catch(console.error);
