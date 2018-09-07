@@ -97,6 +97,10 @@ bot.on('message', async message => {
     
     var sender = message.author;
     var msg = message.content.toUpperCase();
+  
+    if (msg !== 'BIPPITY BOPPITY BOO') {
+        message.channel.send('oh my')
+    }
    
 // Ping Commands
     if (msg === prefix + 'PING') {
