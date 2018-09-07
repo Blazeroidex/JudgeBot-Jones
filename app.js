@@ -178,6 +178,12 @@ bot.on('message', async message => {
         message.channel.send({files: ["https://i.imgur.com/q8npRe9.jpg"]})
 
     }        
+  
+    var pingreply = ["no. just no.", "can I not be pinged every day please?", "STOP PINGING ME, PLEASE!", "if you ping me again I will stab your family", ""];
+    if (msg.includes('@467203808695549954')) {
+      var pingresponse = pingreply[Math.floor(Math.random()*pingreply.length)];
+      message.channel.send(pingresponse).then().catch(console.error);
+    }
 });
 
     bot.on('message', message => {
