@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const config = require("./config.json");
+const config = require("/app/config.json");
 
 module.exports.run = async (bot, message, args) => {
 const admin = ["231933442273574913", "283444510107762698"]

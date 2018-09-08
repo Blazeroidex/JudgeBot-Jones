@@ -16,7 +16,7 @@ setInterval(() => {
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const fs = require("fs");
-const config = require("./commands/config.json");
+const config = require("./config.json");
 
 
 
@@ -233,6 +233,19 @@ bot.on('message', async message => {
 
     bot.on('guildMemberAdd', (guildMember) => {
        guildMember.addRole(guildMember.guild.roles.find(role => role.name === "New Member"));
+    });
+
+    const newUsers = [];
+    bot.on("guildMemberAdd", (member) => {
+      const guild = member.guild;
+      if (!newUsers[guild.id]) newUsers[guild.id] = new Discord.Collection();
+      newUsers[guild.id].set(member.id, member.user);
+
+      if (newUsers[guild.id].size > 0) {
+        const userlist = newUsers[guild.id].map(u => u.toString()).join(" ");
+        guild.channels.find("name", "general").send("Welcome to the server, " + userlist + "!");
+        newUsers[guild.id].clear();
+      }
     });
 
   

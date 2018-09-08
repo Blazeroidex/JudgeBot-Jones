@@ -1,4 +1,4 @@
-const config = require("./config.json");
+const config = require("/app/config.json");
 
 exports.run = (bot, message, args) => {
   
