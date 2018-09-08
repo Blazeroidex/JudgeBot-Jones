@@ -5,8 +5,8 @@ module.exports.run = async (bot, message, args) => {
 
       const sayMessage = args.join(" ");
       message.delete().catch();
-      if(config.ownerID !== message.author.id) {} else message.channel.send(`<@${message.author.id}> says: ` + sayMessage);
-      if(config.ownerID == message.author.id) {} else message.channel.send(sayMessage);
+      if(config.ownerID == message.author.id) {} else message.channel.send(`<@${message.author.id}> says: ` + sayMessage);
+      if(config.ownerID !== message.author.id) {} else message.channel.send(sayMessage);
 
 
 }
