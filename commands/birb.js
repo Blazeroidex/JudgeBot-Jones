@@ -5,14 +5,14 @@ const config = require("/app/config.json");
 module.exports.run = async (bot,message,args) => {
   
   let {body} = await superagent
-  .get(`http://random.birb.pw/tweet.json/`);
+  .get(`https://random.birb.pw/tweet.json/`);
   
-  let dogembed = new Discord.RichEmbed()
+  let birbembed = new Discord.RichEmbed()
   .setColor("ff9900")
   .setTitle("Birb")
   .setImage(body.url);
   
-  message.channel.send(dogembed);
+  message.channel.send(birbembed);
   
 }
 
