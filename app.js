@@ -52,7 +52,6 @@ const swears = [
             "-_-", 
             "YIFF", 
             "FAGGOT", 
-            "REEE", 
             "MINION HENTAI", 
             "MIDGET PORN", 
             "BITCH", 
