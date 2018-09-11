@@ -195,6 +195,8 @@ bot.on('message', async message => {
       var pingresponse = pingreply[Math.floor(Math.random()*pingreply.length)];
       message.channel.send(pingresponse).then().catch(console.error);
     }
+  
+  
 });
 
     bot.on('message', message => {
