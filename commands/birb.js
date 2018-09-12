@@ -5,7 +5,7 @@ const config = require("/app/config.json");
 module.exports.run = async (bot,message,args) => {
   
   let {body} = await superagent
-  .get(`https://random.birb.pw/tweet/random`);
+  .get(`http://shibe.online/api/birds?count=1`);
   
   let birbembed = new Discord.RichEmbed()
   .setColor("ff9900")
