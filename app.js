@@ -223,12 +223,8 @@ bot.on('message', async message => {
     }
   
     if (msg.includes('!CHILD')) {
-      message.channel.send('               :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n     :lips:\n:muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n      :jeans:\n:mans_shoe::mans_shoe:')
-
-    }
-  
-  
-  
+      message.channel.send('\n          :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n          :lips:\n     :muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n          :jeans:\n         :mans_shoe::mans_shoe:')}
+    
 });
 
     bot.on('message', message => {
