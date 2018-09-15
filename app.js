@@ -190,10 +190,6 @@ bot.on('message', async message => {
 
     }        
   
-    if (msg.includes('!YIPPEEKIYAY')) {
-        message.channel.send({files: ["https://i.imgur.com/OJxtsT0.gif"]})
-
-    }      
     if (msg.includes('COOL AND GOOD')) {
         message.channel.send({files: ["https://i.imgur.com/q8npRe9.jpg"]})
 
@@ -203,6 +199,32 @@ bot.on('message', async message => {
     if (msg.includes('@467203808695549954')) {
       var pingresponse = pingreply[Math.floor(Math.random()*pingreply.length)];
       message.channel.send(pingresponse).then().catch(console.error);
+    }
+  
+  //Brayden Commands
+    if (msg.includes('!YIPPEEKIYAY')) {
+      message.channel.send({files: ["https://i.imgur.com/OJxtsT0.gif"]})
+
+    }
+  
+    if (msg.includes('!HOWYADOIN')) {
+      message.channel.send({files: ["https://i.imgur.com/DFduXFV.png"]})
+
+    }
+  
+    if (msg.includes('!YOULLNEVERESCAPE')) {
+      message.channel.send({files: ["https://i.imgur.com/7TNttBA.png"]})
+
+    }
+  
+    if (msg.includes('!YES')) {
+      message.channel.send({files: ["https://i.imgur.com/4qEPBoo.png"]})
+
+    }
+  
+    if (msg.includes('!CHILD')) {
+      message.channel.send('               :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n     :lips:\n:muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n      :jeans:\n:mans_shoe::mans_shoe:')
+
     }
   
   
