@@ -189,6 +189,14 @@ bot.on('message', async message => {
         message.channel.send({files: ["https://i.imgur.com/q8npRe9.jpg"]})
 
     }        
+        if (msg.includes('yippeekiyay')) {
+        message.channel.send({files: ["https://i.imgur.com/OJxtsT0.gif"]})
+
+    }      
+    if (msg.includes('COOL AND GOOD')) {
+        message.channel.send({files: ["https://i.imgur.com/q8npRe9.jpg"]})
+
+    }        
   
     var pingreply = ["no. just no.", "can I not be pinged every day please?", "STOP PINGING ME, PLEASE!", "if you ping me again I will stab your family", "HISSSSSS","huashdosife \n why ping"];
     if (msg.includes('@467203808695549954')) {
