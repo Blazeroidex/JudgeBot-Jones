@@ -189,7 +189,8 @@ bot.on('message', async message => {
         message.channel.send({files: ["https://i.imgur.com/q8npRe9.jpg"]})
 
     }        
-        if (msg.includes('yippeekiyay')) {
+  
+    if (msg.includes('!YIPPEEKIYAY')) {
         message.channel.send({files: ["https://i.imgur.com/OJxtsT0.gif"]})
 
     }      
