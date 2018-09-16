@@ -221,7 +221,11 @@ bot.on('message', async message => {
       message.channel.send({files: ["https://i.imgur.com/4qEPBoo.png"]})
 
     }
-  
+
+    if (msg.includes('!longlivetheking')) {
+      message.channel.send({files: ["https://i.imgur.com/jkavULi.jpg"]})
+
+    }
     if (msg.includes('!CHILD')) {
       message.channel.send('\n          :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n          :lips:\n     :muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n          :jeans:\n         :mans_shoe::mans_shoe:')}
     
