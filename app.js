@@ -222,7 +222,7 @@ bot.on('message', async message => {
 
     }
 
-    if (msg.includes('!longlivetheking')) {
+    if (msg.includes('!LONGLIVETHEKING')) {
       message.channel.send({files: ["https://i.imgur.com/jkavULi.jpg"]})
 
     }
