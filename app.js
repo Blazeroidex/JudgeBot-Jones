@@ -249,7 +249,7 @@ bot.on('message', async message => {
 
     bot.on('ready', () => {
       var channel = bot.channels.get('487693544652275713');
-      channel.send("Hello world");
+      channel.send("`JudgeBot Jones online.`\nHoney! I'm home!");
     });
 
     bot.on("guildCreate", guild => {
