@@ -247,6 +247,11 @@ bot.on('message', async message => {
     console.log(bot.user.username + " is online.")
     });
 
+    bot.on('ready', () => {
+      var channel = bot.channels.get('487693544652275713');
+      channel.send("Hello world");
+    });
+
     bot.on("guildCreate", guild => {
     let defaultChannel = "";
     guild.channels.forEach((channel) => {
