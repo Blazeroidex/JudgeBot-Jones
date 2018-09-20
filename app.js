@@ -1,4 +1,4 @@
-const http = require('http');
+ const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
@@ -62,7 +62,8 @@ const swears = [
             "NYET", 
             "NIET", 
             "HARAMBE WAS JUST A GORILLA",
-            "CUNT"
+            "CUNT",
+            "OOF"
            ];
 
 //#####################################################################################################################
