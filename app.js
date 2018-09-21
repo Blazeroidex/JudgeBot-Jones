@@ -228,8 +228,9 @@ bot.on('message', async message => {
       
     }
     
-    if (msg.includes('!LONGLIVETHEKING')) {
-      client.users.get("someID").send({files: ["https://i.imgur.com/7DdTWOt.png"]})
+    if (msg.includes('!GRADY')) {
+//      bot.users.get("345997846551724033").send({files: ["https://i.imgur.com/7DdTWOt.png"]})
+      message.channel.send({files: ["https://i.imgur.com/7DdTWOt.png"]})
       
 
     }
