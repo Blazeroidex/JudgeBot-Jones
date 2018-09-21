@@ -232,7 +232,7 @@ bot.on('message', async message => {
     
     if (msg.includes('!CHILD')) {
       message.channel.send('\n          :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n          :lips:\n     :muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n          :jeans:\n         :mans_shoe::mans_shoe:')}
-//Loss Memes
+  //Loss Memes
   
     if (msg.includes('GRADY YOU SUCK')) {
 //      bot.users.get("345997846551724033").send({files: ["https://i.imgur.com/7DdTWOt.png"]})
@@ -248,6 +248,12 @@ bot.on('message', async message => {
   
     if (msg.includes('JBJ SUCK')) {
       message.channel.send({files: ["https://i.imgur.com/PV0UTWt.png"]})
+
+    }
+  
+    if (msg.includes('BRAYDEN YOU SUCK')) {
+//      bot.users.get("283444510107762698").send({files: ["https://i.imgur.com/xOBiQeS.png"]})
+      message.channel.send({files: ["https://i.imgur.com/xOBiQeS.png"]})
 
     }
 });
