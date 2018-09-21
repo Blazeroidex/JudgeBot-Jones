@@ -204,8 +204,13 @@ bot.on('message', async message => {
   
   //Brayden Commands
     if (msg.includes('!YIPPEEKIYAY')) {
-      message.channel.send({files: ["https://i.imgur.com/OJxtsT0.gif"]})
+      bot.users.get("345997846551724033").send('"no like you" -grady, 2018')
 
+    }
+  
+    if (msg.includes('BRAYDEN YOU SUCK')) {
+      message.channel.send('')
+      
     }
   
     if (msg.includes('!HOWYADOIN')) {
