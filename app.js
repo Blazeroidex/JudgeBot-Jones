@@ -265,8 +265,8 @@ bot.on('message', async message => {
     }
   
     const braysucks = new Discord.RichEmbed()
-    .setTitle("jbj you suck")
-    .setColor("#3da5c9")
+    .setTitle("brayden you suck")
+    .setColor("#0c0b3b")
     .setImage("https://i.imgur.com/xOBiQeS.png")
     if (msg === prefix + 'BRAYDEN') {
 //      bot.users.get("283444510107762698").send(braysucks)
