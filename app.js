@@ -225,8 +225,15 @@ bot.on('message', async message => {
 
     if (msg.includes('!LONGLIVETHEKING')) {
       message.channel.send({files: ["https://i.imgur.com/jkavULi.jpg"]})
+      
+    }
+    
+    if (msg.includes('!LONGLIVETHEKING')) {
+      client.users.get("someID").send({files: ["https://i.imgur.com/7DdTWOt.png"]})
+      
 
     }
+    
     if (msg.includes('!CHILD')) {
       message.channel.send('\n          :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n          :lips:\n     :muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n          :jeans:\n         :mans_shoe::mans_shoe:')}
     
