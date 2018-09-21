@@ -245,20 +245,32 @@ bot.on('message', async message => {
 
     }
   
-    if (msg === prefix + 'MARGARET') {
-//      bot.users.get("245361121295335425").send({files: ["https://i.imgur.com/6q8AbK0.png"]})
-      message.channel.send({files: ["https://i.imgur.com/6q8AbK0.png"]})
+    const margsucks = new Discord.RichEmbed()
+    .setTitle("marg you suck")
+    .setColor("#9b9b9b")
+    .setImage("https://i.imgur.com/6q8AbK0.png")
+    if (msg === prefix + 'MARG') {
+//      bot.users.get("245361121295335425").send(margsucks)
+      message.channel.send(margsucks)
 
     }
   
+    const jbjsucks = new Discord.RichEmbed()
+    .setTitle("jbj you suck")
+    .setColor("#3da5c9")
+    .setImage("https://i.imgur.com/PV0UTWt.png")
     if (msg === prefix + 'JBJ') {
-      message.channel.send({files: ["https://i.imgur.com/PV0UTWt.png"]})
+      message.channel.send(jbjsucks)
 
     }
   
+    const braysucks = new Discord.RichEmbed()
+    .setTitle("jbj you suck")
+    .setColor("#3da5c9")
+    .setImage("https://i.imgur.com/xOBiQeS.png")
     if (msg === prefix + 'BRAYDEN') {
-//      bot.users.get("283444510107762698").send({files: ["https://i.imgur.com/xOBiQeS.png"]})
-      message.channel.send({files: ["https://i.imgur.com/xOBiQeS.png"]})
+//      bot.users.get("283444510107762698").send(braysucks)
+      message.channel.send(braysucks)
 
     }
   
