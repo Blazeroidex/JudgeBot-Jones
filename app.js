@@ -232,30 +232,36 @@ bot.on('message', async message => {
     
     if (msg.includes('!CHILD')) {
       message.channel.send('\n          :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n          :lips:\n     :muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n          :jeans:\n         :mans_shoe::mans_shoe:')}
-  //Loss Memes
+
+//  Loss Memes
   
-    if (msg.includes('GRADY YOU SUCK')) {
-//      bot.users.get("345997846551724033").send({files: ["https://i.imgur.com/7DdTWOt.png"]})
-      message.channel.send({files: ["https://i.imgur.com/7DdTWOt.png"]})
+    const gradysucks = new Discord.RichEmbed()
+    .setTitle("grady you suck")
+    .setColor("#a322a7")
+    .setImage("https://i.imgur.com/7DdTWOt.png")
+    if (msg === prefix + 'GRADY') {
+//      bot.users.get("345997846551724033").send(gradysucks)
+      message.channel.send(gradysucks)
 
     }
   
-    if (msg.includes('MARG YOU SUCK')) {
+    if (msg === prefix + 'MARGARET') {
 //      bot.users.get("245361121295335425").send({files: ["https://i.imgur.com/6q8AbK0.png"]})
       message.channel.send({files: ["https://i.imgur.com/6q8AbK0.png"]})
 
     }
   
-    if (msg.includes('JBJ SUCK')) {
+    if (msg === prefix + 'JBJ') {
       message.channel.send({files: ["https://i.imgur.com/PV0UTWt.png"]})
 
     }
   
-    if (msg === prefix + 'Brayden')) {
+    if (msg === prefix + 'BRAYDEN') {
 //      bot.users.get("283444510107762698").send({files: ["https://i.imgur.com/xOBiQeS.png"]})
       message.channel.send({files: ["https://i.imgur.com/xOBiQeS.png"]})
 
     }
+  
 });
 
     bot.on('message', message => {
