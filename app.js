@@ -251,7 +251,7 @@ bot.on('message', async message => {
 
     }
   
-    if (msg.includes('BRAYDEN YOU SUCK')) {
+    if (msg === prefix + 'Brayden')) {
 //      bot.users.get("283444510107762698").send({files: ["https://i.imgur.com/xOBiQeS.png"]})
       message.channel.send({files: ["https://i.imgur.com/xOBiQeS.png"]})
 
