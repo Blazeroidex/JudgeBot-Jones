@@ -209,11 +209,6 @@ bot.on('message', async message => {
 
     }
   
-    if (msg.includes('BRAYDEN YOU SUCK')) {
-      bot.users.get("283444510107762698").send('"no like you" -grady, 2018')
-      
-    }
-  
     if (msg.includes('!HOWYADOIN')) {
       message.channel.send({files: ["https://i.imgur.com/DFduXFV.png"]})
 
@@ -239,10 +234,20 @@ bot.on('message', async message => {
       message.channel.send('\n          :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n          :lips:\n     :muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n          :jeans:\n         :mans_shoe::mans_shoe:')}
 //Loss Memes
   
-    if (msg.includes('GRADY ')) {
+    if (msg.includes('GRADY YOU SUCK')) {
 //      bot.users.get("345997846551724033").send({files: ["https://i.imgur.com/7DdTWOt.png"]})
       message.channel.send({files: ["https://i.imgur.com/7DdTWOt.png"]})
-      
+
+    }
+  
+    if (msg.includes('MARG YOU SUCK')) {
+//      bot.users.get("245361121295335425").send({files: ["https://i.imgur.com/6q8AbK0.png"]})
+      message.channel.send({files: ["https://i.imgur.com/6q8AbK0.png"]})
+
+    }
+  
+    if (msg.includes('JBJ SUCK')) {
+      message.channel.send({files: ["https://i.imgur.com/PV0UTWt.png"]})
 
     }
 });
