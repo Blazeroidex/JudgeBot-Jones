@@ -120,7 +120,6 @@ dependencies:
   signed-varint: 2.0.1
   simple-concat: 1.0.0
   simple-get: 2.8.1
-  snekfetch: 3.6.4
   statuses: 1.5.0
   stream-shift: 1.0.0
   string-width: 1.0.2
@@ -1547,7 +1546,6 @@ specifiers:
   signed-varint: ^2.0.1
   simple-concat: ^1.0.0
   simple-get: ^2.8.1
-  snekfetch: ^3.6.4
   statuses: ^1.4.0
   stream-shift: ^1.0.0
   string-width: ^1.0.2
