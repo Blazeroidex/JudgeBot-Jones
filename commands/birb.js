@@ -10,7 +10,7 @@ module.exports.run = async (bot,message,args) => {
   let birbembed = new Discord.RichEmbed()
   .setColor("ff9900")
   .setTitle("Birb")
-  .setImage(body.url);
+  .setImage("https://shibe.online/api/birds?count=1");
   
   message.channel.send(birbembed);
   
