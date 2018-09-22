@@ -5,7 +5,7 @@ const superagent = require("superagent");
 module.exports.run = async (bot,message,args) => {
   
   let {body} = await superagent
-  .get(`http://shibe.online/api/birds?count=1`);
+  .get(`https://random.birb.pw/tweet/random`);
   
   const birbembed = new Discord.RichEmbed()
   .setColor("ff9900")
