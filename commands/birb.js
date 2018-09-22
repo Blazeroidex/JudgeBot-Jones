@@ -1,19 +1,18 @@
 const Discord  = require("discord.js");
-const config = require("/app/config.json");
 const superagent = require("superagent");
+const config = require("/app/config.json");
 
 module.exports.run = async (bot,message,args) => {
   
   let {body} = await superagent
-  .get(`https://random.birb.pw/tweet/random`);
+  .get(`https://random.dog/woof.json`);
   
-  const birbembed = new Discord.RichEmbed()
+  let birbembed = new Discord.RichEmbed()
   .setColor("ff9900")
   .setTitle("Birb")
   .setImage(body.url);
-
   
-  message.channel.send({birbembed});
+  message.channel.send(birbembed);
     
 }
 
