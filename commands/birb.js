@@ -5,7 +5,7 @@ const config = require("/app/config.json");
 module.exports.run = async (bot,message,args) => {
   
   let {body} = await superagent
-  .get(`https://shibe.online/api/shibes`);
+  .get(`https://shibe.online/api/birds`);
   
   let embed = new Discord.RichEmbed()
   .setColor("ff9900")
