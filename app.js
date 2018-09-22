@@ -288,16 +288,16 @@ bot.on('message', async message => {
     .setTitle("pranava you suck")
     .setColor("#ec9415")
     .setImage("https://i.imgur.com/iSXRmTo.jpg")
-    if (msg === prefix + 'JOSEPH') {
+    if (msg === prefix + 'PRANAVA') {
 //      bot.users.get("380449043614269441").send(pranavasucks)
-      message.channel.send(joesucks)
+      message.channel.send(pranavasucks)
 
     }
   
     const marilynsucks = new Discord.RichEmbed()
     .setTitle("marilyn you suck")
     .setColor("#ec9415")
-    .setImage("https://i.imgur.com/iSXRmTo.jpg")
+    .setImage("https://imgur.com/2PoBmT9.png")
     if (msg === prefix + 'MARILYN') {
 //      bot.users.get("https://imgur.com/2PoBmT9.png").send(marilynsucks)
       message.channel.send(marilynsucks)
@@ -307,7 +307,7 @@ bot.on('message', async message => {
     const darylsucks = new Discord.RichEmbed()
     .setTitle("daryl you suck")
     .setColor("#ec9415")
-    .setImage("")
+    .setImage("https://i.imgur.com/8PqJpQy.png")
     if (msg === prefix + 'DARYL') {
 //      bot.users.get("368250072938315787").send(darylsucks)
       message.channel.send(darylsucks)
