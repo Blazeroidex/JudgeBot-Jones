@@ -12,7 +12,7 @@ module.exports.run = async (bot,message,args) => {
   .setTitle("Birb")
   .setImage(body.url);
   
-  message.channel.send(embed);
+  message.channel.send({embed});
     
 }
 
