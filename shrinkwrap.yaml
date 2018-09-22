@@ -86,6 +86,7 @@ dependencies:
   native-level-promise: 0.1.0
   negotiator: 0.6.1
   node-abi: 2.4.3
+  node-fetch: 2.2.0
   node-opus: 0.3.0
   noop-logger: 0.1.1
   npmlog: 4.1.2
@@ -910,6 +911,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-b656V5C0628gOOA2kwcpNA/bxdlqYF9FvxJ+qqVX0ctdXNVZpS8J6xEUYir3WAKc7U0BH/NRlSpNbGsy+azjeg==
+  /node-fetch/2.2.0:
+    dev: false
+    engines:
+      node: 4.x || >=6.0.0
+    resolution:
+      integrity: sha512-OayFWziIxiHY8bCUyLX6sTpDH8Jsbp4FfYd1j1f7vZyfgkcOnAyM4oQR16f8a0s7Gl/viMGRey8eScYk4V4EZA==
   /node-opus/0.3.0:
     cpu:
       - x64
@@ -1506,6 +1513,7 @@ specifiers:
   native-level-promise: ^0.1.0
   negotiator: ^0.6.1
   node-abi: ^2.4.3
+  node-fetch: ^2.2.0
   node-opus: ^0.3.0
   noop-logger: ^0.1.1
   npmlog: ^4.1.2

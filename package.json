@@ -91,6 +91,7 @@
     "native-level-promise": "^0.1.0",
     "negotiator": "^0.6.1",
     "node-abi": "^2.4.3",
+    "node-fetch": "^2.2.0",
     "node-opus": "^0.3.0",
     "noop-logger": "^0.1.1",
     "npmlog": "^4.1.2",
