@@ -5,14 +5,14 @@ const config = require("/app/config.json");
 module.exports.run = async (bot,message,args) => {
   
   let {body} = await superagent
-  .get(`https://random.dog/woof.json`);
+  .get(`https://shibe.online/api/shibes`);
   
-  let birbembed = new Discord.RichEmbed()
+  let embed = new Discord.RichEmbed()
   .setColor("ff9900")
   .setTitle("Birb")
   .setImage(body.url);
   
-  message.channel.send(birbembed);
+  message.channel.send({embed});
     
 }
 

@@ -7,12 +7,12 @@ module.exports.run = async (bot,message,args) => {
   let {body} = await superagent
   .get(`https://random.dog/woof.json`);
   
-  let dogembed = new Discord.RichEmbed()
+  let embed = new Discord.RichEmbed()
   .setColor("ff9900")
   .setTitle("Doggo")
   .setImage(body.url);
   
-  message.channel.send(dogembed);
+  message.channel.send(embed);
   
 }
 
