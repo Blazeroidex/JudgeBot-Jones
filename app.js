@@ -274,6 +274,46 @@ bot.on('message', async message => {
 
     }
   
+    const joesucks = new Discord.RichEmbed()
+    .setTitle("joseph you suck")
+    .setColor("#6f1883")
+    .setImage("https://i.imgur.com/leXUc5L.png")
+    if (msg === prefix + 'JOSEPH') {
+//      bot.users.get("269299243959844865").send(joesucks)
+      message.channel.send(joesucks)
+
+    }
+  
+    const pranavasucks = new Discord.RichEmbed()
+    .setTitle("pranava you suck")
+    .setColor("#ec9415")
+    .setImage("https://i.imgur.com/iSXRmTo.jpg")
+    if (msg === prefix + 'JOSEPH') {
+//      bot.users.get("380449043614269441").send(pranavasucks)
+      message.channel.send(joesucks)
+
+    }
+  
+    const marilynsucks = new Discord.RichEmbed()
+    .setTitle("marilyn you suck")
+    .setColor("#ec9415")
+    .setImage("https://i.imgur.com/iSXRmTo.jpg")
+    if (msg === prefix + 'MARILYN') {
+//      bot.users.get("https://imgur.com/2PoBmT9.png").send(marilynsucks)
+      message.channel.send(marilynsucks)
+
+    }
+  
+    const darylsucks = new Discord.RichEmbed()
+    .setTitle("daryl you suck")
+    .setColor("#ec9415")
+    .setImage("")
+    if (msg === prefix + 'DARYL') {
+//      bot.users.get("368250072938315787").send(darylsucks)
+      message.channel.send(darylsucks)
+
+    }
+  
 });
 
     bot.on('message', message => {
