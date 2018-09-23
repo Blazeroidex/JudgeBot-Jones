@@ -314,8 +314,9 @@ bot.on('message', async message => {
     }
   
 //  Test
-    if (msg === prefix + '') {
-    
+    if (msg === prefix + 'BIRB') {
+    message.channel.send("Sorry, I don't do that sort of thing...")
+      
     }
   
 });
