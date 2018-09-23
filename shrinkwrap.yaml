@@ -59,6 +59,7 @@ dependencies:
   ipaddr.js: 1.8.1
   is-fullwidth-code-point: 1.0.0
   isarray: 1.0.0
+  klasa: 0.4.0
   length-prefixed-stream: 1.6.0
   level: 1.7.0
   level-codec: 7.1.0
@@ -560,6 +561,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==
+  /fs-nextra/0.3.7:
+    dev: false
+    engines:
+      node: '>=8.5.0'
+    resolution:
+      integrity: sha512-QHBRAZKiZiEaj1/p3+uDUYQZRsdaUOC2vVl+kZlfqvHDfJMu3QRI8TW4OKjc34VoS9+2Zd30DGD1w4AH8zUJxw==
   /fs/0.0.1-security:
     dev: false
     resolution:
@@ -689,6 +696,17 @@ packages:
     dev: false
     resolution:
       integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+  /klasa/0.4.0:
+    dependencies:
+      fs-nextra: 0.3.7
+      moment: 2.22.2
+    dev: false
+    engines:
+      node: '>=8.5.0'
+    peerDependencies:
+      discord.js: 'github:hydrabolt/discord.js#master'
+    resolution:
+      integrity: sha512-nWJqApvWkb61lpnwoII84hjiR0AMiAmo5HnKXMaocIWuuUFPS6OLR4UPYQelUlahI3xoJAxhajkIeJZI0M0yog==
   /length-prefixed-stream/1.6.0:
     dependencies:
       buffer-alloc-unsafe: 1.1.0
@@ -1485,6 +1503,7 @@ specifiers:
   ipaddr.js: ^1.8.0
   is-fullwidth-code-point: ^1.0.0
   isarray: ^1.0.0
+  klasa: ^0.4.0
   length-prefixed-stream: ^1.6.0
   level: ^1.7.0
   level-codec: ^7.0.1

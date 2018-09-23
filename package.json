@@ -64,6 +64,7 @@
     "ipaddr.js": "^1.8.0",
     "is-fullwidth-code-point": "^1.0.0",
     "isarray": "^1.0.0",
+    "klasa": "^0.4.0",
     "length-prefixed-stream": "^1.6.0",
     "level": "^1.7.0",
     "level-codec": "^7.0.1",

@@ -234,7 +234,6 @@ bot.on('message', async message => {
       message.channel.send('\n          :tophat:\n:ear::skin-tone-2::eye:️:nose::skin-tone-2::eye:️:ear::skin-tone-2:\n          :lips:\n     :muscle::skin-tone-2::shirt::selfie::skin-tone-2:\n          :jeans:\n         :mans_shoe::mans_shoe:')}
 
 //  Loss Memes
-  
     const gradysucks = new Discord.RichEmbed()
     .setTitle("grady you suck")
     .setColor("#a322a7")
@@ -312,6 +311,11 @@ bot.on('message', async message => {
 //      bot.users.get("368250072938315787").send(darylsucks)
       message.channel.send(darylsucks)
 
+    }
+  
+//  Test
+    if (msg === prefix + '') {
+    
     }
   
 });
