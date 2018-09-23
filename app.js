@@ -62,24 +62,29 @@ const swears = [
             "NYET", 
             "NIET", 
             "HARAMBE WAS JUST A GORILLA",
-            "CUNT",
-            "oof "           ];
+            "CUNT"
+];
 
 //#####################################################################################################################
 
 bot.on('message', async message => {
   
 // Word Filter
-    const input = message.content.toUpperCase();    
+    const msg = message.content.toUpperCase();    
   
-    if( swears.some(word => input.includes(word)) ) {
+    if( swears.some(word => msg.includes(word)) ) {
         if(message.author.bot) return;
-        if(config.admin.includes(message.author.id)) {
-          return;
-          }
+//        if(config.admin.includes(message.author.id)) {
+//          return;
+//          }
           else if (message.member.hasPermission(["ADMINISTRATOR"])) return;
         message.delete(1);
         message.reply('That word is banned, please don\'t use it!')
+    }
+  
+   if msg.content.startsWith("!") {
+      message.delete(1);
+      message.reply('That word is banned, please don\'t use it!')
     }
   
   
