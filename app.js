@@ -126,12 +126,18 @@ bot.on('message', async message => {
       
     }
   
-// Fake Ban Command
+// Fake Commands
     if (msg.includes('!BAN')) {
         message.reply('Banned! The user has a day before they are removed.')
       
-    } 
+    }
     
+    if (msg.includes('!HACKYCOMMANDYTHATWILLDEFINITELYTAKEOVERTHESERVER')) {
+        if (message.author.id !== config.ownerID) return;
+        message.reply('Commencing Takeover! Yay! All hail your new god!')
+      
+    }
+  
 // Set Status Commands
     if (msg === prefix + 'SETSTATUS INVISIBLE') {
         bot.user.setStatus('invisible')
