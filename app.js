@@ -58,7 +58,6 @@ const swears = [
             "FUCC", 
             "SANTA ISNT REAL", 
             "NEJ", 
-            "NEIN", 
             "NYET", 
             "NIET", 
             "HARAMBE WAS JUST A GORILLA",
