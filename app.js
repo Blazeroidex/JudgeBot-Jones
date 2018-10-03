@@ -380,6 +380,17 @@ bot.on('message', async message => {
       }
     });
 
+//bot.on('message', function(message) {
+    // Now, you can use the message variable inside
+//    if (message.content === "$duh") { 
+//        var interval = setInterval (function () {
+            // use the message's channel (TextChannel) to send a new message
+//            bot.users.get("368250072938315787").send("https://cdn.discordapp.com/attachments/376200040361754624/496844175468134442/B4gbJsvreARCmVE-.mp4")
+//            .catch(console.error); // add error handling here
+//        }, 1 * 6000); 
+//    }
+//});
+
   
 
 
