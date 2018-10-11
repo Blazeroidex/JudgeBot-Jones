@@ -101,6 +101,24 @@ bot.on('message', async message => {
         message.reply('Are you sure you didn\'t mean "martial"?')
       
     } 
+  
+    if (msg.includes('JUDGEBOT JONES')) {
+        if(message.author.id !== '418206456521818119') return;
+        message.delete
+      
+    } 
+  
+    if (msg.includes('JBJ')) {
+        if(message.author.id !== '418206456521818119') return;
+        message.delete
+      
+    } 
+
+    if (msg.includes('@467203808695549954')) {
+        if(message.author.id !== '418206456521818119') return;
+        message.delete
+      
+    } 
    
 // Ping Commands
     if (msg === prefix + 'PING') {
