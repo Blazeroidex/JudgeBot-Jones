@@ -64,6 +64,8 @@ const swears = [
             "CUNT"
               ];
 
+const jackjbj = ["JBJ","JUDGEBOTJONES","JUDGEBOT JONES","JUDGE BOT JONES","JONES"]
+
 //#####################################################################################################################
 
 bot.on('message', async message => {
@@ -72,6 +74,16 @@ bot.on('message', async message => {
     const input = message.content.toUpperCase();    
   
     if( swears.some(word => input.includes(word)) ) {
+        if(message.author.bot) return;
+        if(config.admin.includes(message.author.id)) {
+          return;
+          }
+          else if (message.member.hasPermission(["ADMINISTRATOR"])) return;
+        message.delete(1);
+        message.reply('That word is banned, please don\'t use it!')
+    }
+  
+    if( jackjbj.some(word => input.includes(word)) ) {
         if(message.author.bot) return;
         if(config.admin.includes(message.author.id)) {
           return;
@@ -104,19 +116,31 @@ bot.on('message', async message => {
   
     if (msg.includes('JUDGEBOT JONES')) {
         if(message.author.id !== '418206456521818119') return;
-        message.delete
+        message.delete();
+      
+    } 
+  
+    if (msg.includes('JUDGEBOT JONES')) {
+        if(message.author.id !== '418206456521818119') return;
+        message.delete();
+      
+    } 
+  
+    if (msg.includes('JUDGEBOTJONES')) {
+        if(message.author.id !== '418206456521818119') return;
+        message.delete();
       
     } 
   
     if (msg.includes('JBJ')) {
         if(message.author.id !== '418206456521818119') return;
-        message.delete
+        message.delete();
       
     } 
 
     if (msg.includes('@467203808695549954')) {
         if(message.author.id !== '418206456521818119') return;
-        message.delete
+        message.delete();
       
     } 
    
