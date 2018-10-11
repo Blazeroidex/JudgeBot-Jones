@@ -232,6 +232,16 @@ bot.on('message', async message => {
       message.channel.send({files: ["https://i.imgur.com/jkavULi.jpg"]})
       
     }
+  
+    if (msg.includes('!PRAISETHELORD')) {
+      message.channel.send({files: ["https://i.imgur.com/aRybkGc.png"]})
+      
+    }
+  
+    if (msg.includes('!GODHIMSELF')) {
+      message.channel.send({files: ["https://i.imgur.com/8Tf6qfj.png"]})
+      
+    }
     
     
     if (msg.includes('!CHILD')) {
