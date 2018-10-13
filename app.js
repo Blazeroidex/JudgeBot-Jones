@@ -64,7 +64,7 @@ const swears = [
             "CUNT"
               ];
 
-const jackjbj = ["JBJ","JUDGEBOTJONES","JUDGEBOT JONES","JUDGE BOT JONES","JONES","@467203808695549954"]
+const jackjbj = ["JBJ","JUDGEBOTJONES","JUDGEBOT JONES","JUDGE BOT JONES","JONES","@467203808695549954","AMERICA"]
 //#####################################################################################################################
 
 bot.on('message', async message => {
