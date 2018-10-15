@@ -87,7 +87,7 @@ bot.on('message', async message => {
         message.delete(1);
     }
   
-    if(message.contains(message.guild.emojis)) {
+    if(message.content.includes(message.guild.emojis)) {
         message.delete(1);
        }
   
