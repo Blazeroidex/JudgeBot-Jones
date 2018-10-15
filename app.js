@@ -87,9 +87,9 @@ bot.on('message', async message => {
         message.delete(1);
     }
     
-    const emoji = bot.emojis.find(emoji => emoji.name !== "white_check_mark");
-    if(message.content.includes(emoji)) {
-        message.reply('EMOJIS!')
+    if(message.content.includes(":")) {
+        if(message.author.id !== '367428308943634462') return;
+        message.delete(1);
        }
   
   
