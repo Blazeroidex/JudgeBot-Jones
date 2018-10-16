@@ -149,6 +149,15 @@ bot.on('message', async message => {
       
     }
   
+// Avatar Command
+  if (message.content.includes('!avatar')) {
+  const member = message.mentions.first()
+  let avatarembed = new Discord.RichEmbed()
+  .setImage(member.avatarURL)
+  .setColor('#275BF0')
+    message.channel.send(avatarembed)
+  }
+  
 // Set Status Commands
     if (msg === prefix + 'SETSTATUS INVISIBLE') {
         bot.user.setStatus('invisible')
