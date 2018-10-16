@@ -151,7 +151,7 @@ bot.on('message', async message => {
   
 // Avatar Command
   if (message.content.includes('!avatar')) {
-  const member = message.mentions.first()
+  const member = message.mentions.users.first()
   let avatarembed = new Discord.RichEmbed()
   .setImage(member.avatarURL)
   .setColor('#275BF0')
